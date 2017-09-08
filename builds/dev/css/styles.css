@@ -63,11 +63,36 @@ header .vertical-registration-form{margin-top:60px;}
 .navbar-nav > li > a:hover{background:inherit;}
 .non-sticky .navbar-nav.navbar-right:last-child{margin-right:0;}
 .non-sticky .navbar-nav > li > a{font-size:25px;padding:0;padding-left:5px;padding-top:3px;color:#ffffff;}
-.sticky-navigation{min-height:75px;background:#ffffff;-webkit-backface-visibility:hidden;border:0;-webkit-box-shadow:0px 2px 8px 0px rgba(50, 50, 50, 0.08);box-shadow:0px 2px 8px 0px rgba(50, 50, 50, 0.08);}
-.sticky-navigation .navbar-header{padding-top:8px;}
-.sticky-navigation .main-navigation{padding-top:13px;}
-.sticky-navigation .main-navigation .current a{-webkit-backface-visibility:hidden;outline:inherit;position:relative;}
-.sticky-navigation .navbar-nav > li > a{font-family:'Raleway', sans-serif;font-size:13px;text-transform:uppercase;font-weight:600;color:#323232;}
+.white-navbar {
+  min-height: 75px;
+  background: #ffffff;
+  backface-visibility: hidden;
+  border: 0;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+}
+
+.white-navigation .navbar-header {
+	padding-top: 8px;
+}
+
+.white-navigation .main-navigation {
+	padding-top: 13px;
+}
+
+.white-navigation .main-navigation .current a {
+	-webkit-backface-visibility: hidden;
+	outline: inherit;
+	position: relative;
+}
+
+.white-navigation .navbar-nav > li > a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #323232;
+}
+
 .side-screenshot,
 .side-screenshot2{max-width:532px;}
 .brief h2{margin-top:0;margin-bottom:10px;}
@@ -80,6 +105,7 @@ header .vertical-registration-form{margin-top:60px;}
 .features{margin-top:35px;}
 .feature{margin-top:40px;margin-bottom:35px;}
 .feature .icon{font-size:50px;margin-bottom:30px;}
+.feature button{background-color:white; border: hidden;}
 .feature h4{margin-bottom:10px;}
 .pricing-table{margin-top:35px;}
 .package{overflow:auto;border:1px solid #e5e5e5;border-radius:3px;margin-top:40px;}
